@@ -1,0 +1,817 @@
+{
+  "hero": {
+    "title": "Transforme Sua Visão Em",
+    "subtitle": "Comunicação Visual Impressionante",
+    "description": "Sinalização profissional, impressão e serviços criativos que ajudam seu negócio a causar uma impressão duradoura.",
+    "cta": "Inicie Seu Projeto"
+  },
+  "stats": {
+    "experience": {
+      "value": "15+",
+      "label": "Anos de Experiência"
+    },
+    "clients": {
+      "value": "2.500+",
+      "label": "Clientes Satisfeitos"
+    },
+    "projects": {
+      "value": "10.000+",
+      "label": "Projetos Concluídos"
+    },
+    "success": {
+      "value": "99%",
+      "label": "Taxa de Sucesso"
+    }
+  },
+  "features": {
+    "title": "Nossos Serviços FBRSigns",
+    "subtitle": "Soluções completas de sinalização para todas as necessidades empresariais",
+    "premiumMaterials": {
+      "title": "Materiais de Qualidade Premium",
+      "description": "Usamos apenas materiais da mais alta qualidade para garantir que sua sinalização dure por anos."
+    },
+    "fastTurnaround": {
+      "title": "Prazos de Entrega Rápidos",
+      "description": "Produção e entrega rápidas sem comprometer a qualidade. A maioria dos projetos concluídos em 5-7 dias úteis."
+    },
+    "customDesign": {
+      "title": "Serviços de Design Personalizado",
+      "description": "Nossos designers especializados trabalham com você para criar sinalização única e atraente que representa perfeitamente sua marca."
+    },
+    "installation": {
+      "title": "Instalação Profissional",
+      "description": "Serviços de instalação especializados garantem que sua sinalização seja montada com segurança e pareça perfeita desde o primeiro dia."
+    }
+  },
+  "products": {
+    "title": "Produtos Em Destaque",
+    "subtitle": "Soluções completas de sinalização para todas as necessidades empresariais",
+    "customSigns": {
+      "name": "Placas Comerciais Personalizadas",
+      "description": "Sinalização profissional de fachada que faz seu negócio se destacar",
+      "price": "A partir de $299",
+      "details": "Soluções de sinalização personalizadas premium adaptadas à identidade da sua marca. Disponível em diversos materiais incluindo alumínio, acrílico e madeira."
+    },
+    "digitalLED": {
+      "name": "Displays LED Digitais",
+      "description": "Sinalização digital moderna para conteúdo dinâmico e máximo impacto",
+      "price": "A partir de $899",
+      "details": "Displays LED de alta visibilidade perfeitos para publicidade interna e externa. Eficientes energeticamente e totalmente programáveis."
+    },
+    "vehicleWraps": {
+      "name": "Adesivação de Veículos",
+      "description": "Transforme seu veículo em um outdoor móvel para seu negócio",
+      "price": "A partir de $1.299",
+      "details": "Transforme seu veículo em um outdoor móvel com nossos adesivos de vinil de alta qualidade. Instalação profissional incluída."
+    },
+    "tradeShow": {
+      "name": "Displays para Feiras",
+      "description": "Displays portáteis e profissionais que atraem atenção em eventos",
+      "price": "A partir de $489",
+      "details": "Displays portáteis e impactantes para feiras, banners e estandes projetados para atrair atenção em eventos."
+    },
+    "viewDetails": "Ver Detalhes",
+    "viewAllProducts": "Ver Todos os Produtos"
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "subtitle": "Soluções completas de sinalização do conceito à conclusão. Cuidamos de todos os aspectos do seu projeto com expertise e cuidado.",
+    "design": {
+      "title": "Serviços de Design",
+      "description": "Design personalizado de logotipo, marca e layout adaptado às necessidades do seu negócio.",
+      "startingPrice": "$199",
+      "features": [
+        "Design de Logotipo Personalizado",
+        "Desenvolvimento de Identidade da Marca",
+        "Criação de Layout e Mockup",
+        "Consultoria de Esquema de Cores"
+      ],
+      "process": [
+        "Consulta Inicial",
+        "Desenvolvimento do Conceito",
+        "Refinamento do Design",
+        "Aprovação Final"
+      ],
+      "timeline": "3-5 dias úteis"
+    },
+    "production": {
+      "title": "Serviços de Produção",
+      "description": "Impressão e fabricação de última geração usando materiais premium e tecnologia de ponta.",
+      "startingPrice": "$299",
+      "features": [
+        "Impressão Digital",
+        "Corte e Aplicação de Vinil",
+        "Fabricação de Metal",
+        "Laminação e Acabamento"
+      ],
+      "process": [
+        "Preparação de Arquivo",
+        "Seleção de Material",
+        "Produção",
+        "Controle de Qualidade"
+      ],
+      "timeline": "2-7 dias úteis"
+    },
+    "installation": {
+      "title": "Serviços de Instalação",
+      "description": "Instalação profissional por técnicos certificados garantindo posicionamento perfeito e conformidade de segurança.",
+      "startingPrice": "$149",
+      "features": [
+        "Montagem Profissional",
+        "Conexões Elétricas",
+        "Preparação do Local",
+        "Conformidade de Segurança"
+      ],
+      "process": [
+        "Levantamento do Local",
+        "Planejamento da Instalação",
+        "Instalação Profissional",
+        "Teste Final"
+      ],
+      "timeline": "1-3 dias úteis"
+    },
+    "maintenance": {
+      "title": "Manutenção e Suporte",
+      "description": "Serviços de manutenção contínua para manter sua sinalização perfeita e funcionando de forma otimizada.",
+      "startingPrice": "$99/mês",
+      "features": [
+        "Limpeza Regular",
+        "Serviços de Reparo",
+        "Atualizações de Conteúdo",
+        "Suporte 24/7"
+      ],
+      "process": [
+        "Cronograma de Manutenção",
+        "Inspeções Regulares",
+        "Cuidados Preventivos",
+        "Reparos de Emergência"
+      ],
+      "timeline": "Contínuo"
+    },
+    "featuresIncluded": "Recursos Incluídos:",
+    "ourProcess": "Nosso Processo:",
+    "getQuote": "Solicitar Orçamento",
+    "process": {
+      "title": "Nosso Processo",
+      "subtitle": "Da consulta inicial à instalação final, guiamos você em cada etapa",
+      "consultation": {
+        "title": "Consulta",
+        "description": "Discutimos suas necessidades, orçamento e visão para criar a solução perfeita"
+      },
+      "design": {
+        "title": "Design e Mockup",
+        "description": "Nossos designers criam mockups detalhados e renderizações para sua aprovação"
+      },
+      "production": {
+        "title": "Produção",
+        "description": "Fabricamos sua sinalização usando materiais premium e técnicas avançadas"
+      },
+      "installation": {
+        "title": "Instalação",
+        "description": "Instalação profissional garantindo posicionamento perfeito e funcionalidade"
+      },
+      "support": {
+        "title": "Suporte Contínuo",
+        "description": "Manutenção e suporte contínuos para manter sua sinalização com a melhor aparência"
+      }
+    },
+    "whyChoose": {
+      "title": "Por que Escolher a FBR Signs?",
+      "expertise": {
+        "title": "20+ Anos de Experiência",
+        "description": "Décadas de expertise na criação de soluções de sinalização impactantes"
+      },
+      "turnaround": {
+        "title": "Entrega Rápida",
+        "description": "Entrega rápida sem comprometer a qualidade"
+      },
+      "quality": {
+        "title": "Qualidade Premium",
+        "description": "Usando apenas os melhores materiais e tecnologia mais recente"
+      },
+      "delivery": {
+        "title": "Entrega Pontual",
+        "description": "Cronograma confiável e conclusão rápida do projeto"
+      }
+    },
+    "cta": {
+      "title": "Pronto para Começar?",
+      "subtitle": "Vamos discutir seu projeto e criar uma solução personalizada que se adapte perfeitamente às suas necessidades e orçamento.",
+      "button": "Consulta Gratuita",
+      "portfolio": "Ver Nosso Trabalho"
+    },
+    "digitalSigns": {
+      "title": "Placas LED Digitais",
+      "description": "Displays digitais atraentes que capturam atenção e aumentam o tráfego de pedestres"
+    },
+    "illuminatedSigns": {
+      "title": "Placas Iluminadas",
+      "description": "Soluções de iluminação profissional que tornam seu negócio visível 24/7"
+    },
+    "vehicleWraps": {
+      "title": "Adesivação de Veículos",
+      "description": "Transforme sua frota em publicidade móvel com nossos adesivos premium para veículos"
+    },
+    "storefrontSigns": {
+      "title": "Placas de Fachada",
+      "description": "Sinalização profissional de fachada que atrai clientes e constrói sua marca"
+    },
+    "tradeShows": {
+      "title": "Displays para Feiras",
+      "description": "Displays portáteis e impactantes que ajudam você a se destacar em convenções e eventos"
+    }
+  },
+  "about": {
+    "title": "Sobre FBR Signs",
+    "subtitle": "Seu parceiro confiável em soluções de sinalização profissional",
+    "description": "Com mais de 20 anos de experiência na indústria de sinalização, a FBR Signs se estabeleceu como provedora premium de soluções de sinalização personalizadas. Combinamos artesanato tradicional com tecnologia de ponta para entregar resultados excepcionais.",
+    "mission": "Nossa missão é ajudar empresas a comunicar sua mensagem de marca efetivamente através de sinalização inovadora e de alta qualidade que resiste ao teste do tempo.",
+    "story": {
+      "title": "Nossa História",
+      "content1": "Fundada em 2009 com a visão de transformar a comunicação visual, a FBR Signs cresceu de um pequeno negócio local para uma empresa líder de sinalização atendendo clientes em múltiplos estados.",
+      "content2": "Nossa jornada foi marcada por inovação contínua, compromisso inabalável com a qualidade e paixão por ajudar empresas a se destacar no mercado competitivo de hoje.",
+      "content3": "Combinamos artesanato tradicional com tecnologia de ponta para entregar resultados excepcionais que superam as expectativas dos nossos clientes toda vez."
+    },
+    "values": {
+      "title": "Nossos Valores",
+      "subtitle": "Os princípios que guiam tudo o que fazemos",
+      "excellence": {
+        "title": "Excelência",
+        "description": "Buscamos a perfeição em todos os projetos, desde o conceito do design até a instalação final."
+      },
+      "customerFocus": {
+        "title": "Foco no Cliente",
+        "description": "Seu sucesso é nosso sucesso. Priorizamos suas necessidades e superamos expectativas."
+      },
+      "innovation": {
+        "title": "Inovação",
+        "description": "Abraçamos novas tecnologias e soluções criativas para ficar à frente da concorrência."
+      },
+      "teamwork": {
+        "title": "Trabalho em Equipe",
+        "description": "Nossa abordagem colaborativa garante que cada projeto se beneficie de nossa expertise coletiva."
+      }
+    },
+    "team": {
+      "title": "Conheça Nossa Equipe",
+      "subtitle": "Os profissionais talentosos por trás do seu sucesso",
+      "members": [
+        {
+          "name": "Sarah Johnson",
+          "role": "Fundadora e CEO",
+          "bio": "Com mais de 15 anos na indústria de sinalização, Sarah lidera nossa equipe com paixão e expertise.",
+          "image": "/placeholder.svg"
+        },
+        {
+          "name": "Mike Rodriguez",
+          "role": "Diretor Criativo",
+          "bio": "Mike traz pensamento de design inovador e garante que cada projeto supere as expectativas.",
+          "image": "/placeholder.svg"
+        },
+        {
+          "name": "Emily Chen",
+          "role": "Gerente de Produção",
+          "bio": "Emily supervisiona o controle de qualidade e garante a entrega pontual de todos os nossos projetos.",
+          "image": "/placeholder.svg"
+        },
+        {
+          "name": "David Thompson",
+          "role": "Especialista em Instalação",
+          "bio": "David lidera nossa equipe de instalação com precisão e compromisso com a segurança.",
+          "image": "/placeholder.svg"
+        }
+      ]
+    },
+    "milestones": {
+      "title": "Nossa Jornada",
+      "subtitle": "Marcos importantes no crescimento da nossa empresa",
+      "items": [
+        {
+          "year": "2009",
+          "title": "Empresa Fundada",
+          "description": "Começamos com a visão de transformar a comunicação visual"
+        },
+        {
+          "year": "2012",
+          "title": "1.000 Projetos",
+          "description": "Alcançamos nosso primeiro marco importante com 1.000 projetos concluídos"
+        },
+        {
+          "year": "2015",
+          "title": "Expansão Digital",
+          "description": "Adicionamos serviços de sinalização digital e displays LED"
+        },
+        {
+          "year": "2018",
+          "title": "Crescimento Regional",
+          "description": "Expandimos operações para atender clientes em três estados"
+        },
+        {
+          "year": "2021",
+          "title": "Foco na Sustentabilidade",
+          "description": "Lançamos materiais eco-friendly e práticas sustentáveis"
+        },
+        {
+          "year": "2024",
+          "title": "10.000+ Projetos",
+          "description": "Celebrando mais de 10.000 projetos bem-sucedidos e contando"
+        }
+      ]
+    },
+    "whyChooseUs": "Por Que Nos Escolher",
+    "experience": "20+ Anos de Experiência",
+    "customSolutions": "Soluções Personalizadas",
+    "qualityMaterials": "Materiais Premium",
+    "professionalInstallation": "Instalação Profissional"
+  },
+  "testimonials": {
+    "title": "O Que Nossos Clientes Dizem",
+    "client1": {
+      "name": "Sarah Johnson",
+      "company": "Proprietária de Restaurante Local",
+      "quote": "A FBR Signs transformou nossa fachada com uma bela placa iluminada. Nosso fluxo de clientes aumentou 40% no primeiro mês!"
+    },
+    "client2": {
+      "name": "Mike Chen",
+      "company": "Gerente de Loja de Varejo",
+      "quote": "A placa LED digital mudou o jogo para nossas promoções. A qualidade e o serviço superaram nossas expectativas."
+    },
+    "client3": {
+      "name": "Lisa Rodriguez",
+      "company": "Consultório Médico",
+      "quote": "Profissional, confiável e criativo. A FBR Signs entregou exatamente o que visualizamos para nosso centro médico."
+    }
+  },
+  "cta": {
+    "title": "Pronto Para Transformar Seu Negócio?",
+    "subtitle": "Obtenha uma consulta e orçamento gratuitos para seu projeto de sinalização hoje",
+    "button": "Obter Orçamento Gratuito"
+  },
+  "portfolio": {
+    "title": "Nosso Portfólio",
+    "subtitle": "Explore nossos projetos recentes e veja como ajudamos empresas a transformar sua comunicação visual e se destacar da concorrência.",
+    "categories": [
+      "Todos os Projetos",
+      "Placas Comerciais",
+      "Displays Digitais",
+      "Adesivação de Veículos",
+      "Feiras Comerciais",
+      "Sinalização Interna",
+      "Publicidade Externa"
+    ],
+    "projects": [
+      {
+        "title": "Sinalização de Restaurante Moderno",
+        "category": "Placas Comerciais",
+        "client": "Restaurante Bella Vista",
+        "description": "Pacote completo de sinalização incluindo placa de fachada, pranchas de menu e sinalização interna.",
+        "tags": [
+          "LED",
+          "Acrílico",
+          "Design de Interiores"
+        ],
+        "year": "2024"
+      },
+      {
+        "title": "Campanha de Outdoor Digital",
+        "category": "Displays Digitais",
+        "client": "Tech Solutions Inc",
+        "description": "Display LED de grande formato para publicidade de alto tráfego com gerenciamento de conteúdo dinâmico.",
+        "tags": [
+          "LED",
+          "Digital",
+          "Alto Tráfego"
+        ],
+        "year": "2024"
+      },
+      {
+        "title": "Adesivação de Frota",
+        "category": "Adesivação de Veículos",
+        "client": "Green Clean Services",
+        "description": "Branding completo da frota com adesivos atraentes para 12 veículos de serviço.",
+        "tags": [
+          "Frota",
+          "Branding",
+          "Vinil"
+        ],
+        "year": "2023"
+      },
+      {
+        "title": "Design de Estande para Feira",
+        "category": "Feiras Comerciais",
+        "client": "Innovation Expo 2024",
+        "description": "Sistema modular de display para feira com iluminação integrada e elementos interativos.",
+        "tags": [
+          "Modular",
+          "Interativo",
+          "Portátil"
+        ],
+        "year": "2024"
+      },
+      {
+        "title": "Sinalização de Escritório Corporativo",
+        "category": "Sinalização Interna",
+        "client": "Atlantic Financial Group",
+        "description": "Conjunto profissional de sinalização interna incluindo display do lobby, placas direcionais e identificação de salas.",
+        "tags": [
+          "Corporativo",
+          "Sinalização",
+          "Profissional"
+        ],
+        "year": "2023"
+      },
+      {
+        "title": "Diretório de Shopping Center",
+        "category": "Publicidade Externa",
+        "client": "Riverside Shopping Plaza",
+        "description": "Placa de diretório em grande escala com painéis iluminados de inquilinos e integração de mapa.",
+        "tags": [
+          "Diretório",
+          "Iluminado",
+          "Grande Escala"
+        ],
+        "year": "2024"
+      },
+      {
+        "title": "Sinalização de Centro Médico",
+        "category": "Sinalização Interna",
+        "client": "Sunrise Medical Center",
+        "description": "Sistema abrangente de sinalização com placas compatíveis com ADA em toda a instalação.",
+        "tags": [
+          "Compatível com ADA",
+          "Saúde",
+          "Sinalização"
+        ],
+        "year": "2023"
+      },
+      {
+        "title": "Placas de Desenvolvimento Imobiliário",
+        "category": "Placas Comerciais",
+        "client": "Premier Properties",
+        "description": "Placas monumentais, sinalização direcional e displays do centro de vendas para desenvolvimento de luxo.",
+        "tags": [
+          "Monumental",
+          "Luxo",
+          "Desenvolvimento"
+        ],
+        "year": "2024"
+      }
+    ],
+    "statsTitle": "Estatísticas de Projetos",
+    "stats": [
+      {
+        "value": "150+",
+        "label": "Projetos Este Ano"
+      },
+      {
+        "value": "98%",
+        "label": "Satisfação do Cliente"
+      },
+      {
+        "value": "25",
+        "label": "Prêmios da Indústria"
+      },
+      {
+        "value": "5.0",
+        "label": "Avaliação Média"
+      }
+    ],
+    "ctaTitle": "Inspirado pelo Nosso Trabalho?",
+    "ctaSubtitle": "Vamos criar algo incrível para seu negócio. Todo projeto começa com o entendimento de suas necessidades e visão únicas.",
+    "ctaButton": "Comece Seu Projeto",
+    "ctaSecondary": "Agendar Consulta",
+    "viewDetails": "Ver Detalhes",
+    "startSimilar": "Iniciar Projeto Similar",
+    "getQuote": "Obter Orçamento",
+    "projectTags": "Tags do Projeto",
+    "noProjects": "Nenhum projeto encontrado nesta categoria."
+  },
+  "quote": {
+    "title": "Solicitar Orçamento",
+    "subtitle": "Obtenha um orçamento personalizado para seu projeto de sinalização. Preencha o formulário abaixo e retornaremos em até 24 horas.",
+    "contactInfo": "Informações de Contato",
+    "projectDetails": "Detalhes do Projeto",
+    "additionalInfo": "Informações Adicionais",
+    "firstName": "Nome",
+    "lastName": "Sobrenome",
+    "email": "Endereço de Email",
+    "phone": "Número de Telefone",
+    "company": "Nome da Empresa (Opcional)",
+    "projectType": "Tipo de Projeto",
+    "selectProjectType": "Selecionar tipo de projeto",
+    "projectTypes": [
+      "Sinalização Comercial",
+      "Display LED Digital",
+      "Adesivação de Veículo",
+      "Display para Feira",
+      "Sinalização Interna",
+      "Publicidade Externa",
+      "Projeto Personalizado"
+    ],
+    "budget": "Orçamento Estimado",
+    "selectBudget": "Selecionar faixa de orçamento",
+    "budgetRanges": [
+      "Abaixo de $500",
+      "$500 - $1.000",
+      "$1.000 - $2.500",
+      "$2.500 - $5.000",
+      "$5.000 - $10.000",
+      "Acima de $10.000"
+    ],
+    "timeline": "Cronograma Desejado",
+    "selectTimeline": "Selecionar cronograma",
+    "timelines": [
+      "O mais rápido possível",
+      "Dentro de 2 semanas",
+      "Dentro de 1 mês",
+      "Dentro de 2-3 meses",
+      "Flexível"
+    ],
+    "description": "Descrição do Projeto",
+    "descriptionPlaceholder": "Forneça detalhes sobre seu projeto, incluindo tamanho, materiais, requisitos de instalação e quaisquer preferências específicas de design...",
+    "attachments": "Anexos (Opcional)",
+    "attachmentsText": "Anexar imagens de referência, logos ou arquivos de design",
+    "submitButton": "Enviar Solicitação de Orçamento",
+    "submitting": "Enviando...",
+    "successTitle": "Solicitação de Orçamento Enviada!",
+    "successMessage": "Obrigado pelo seu interesse! Analisaremos sua solicitação e retornaremos em até 24 horas com um orçamento detalhado.",
+    "backToHome": "Voltar ao Início"
+  },
+  "ecommerce": {
+    "searchPlaceholder": "Buscar produtos...",
+    "filterByCategory": "Filtrar por categoria",
+    "allCategories": "Todas as Categorias",
+    "viewModes": {
+      "grid": "Visualização em Grade",
+      "list": "Visualização em Lista"
+    },
+    "loading": "Carregando produtos...",
+    "noProducts": "Nenhum produto encontrado",
+    "addToCart": "Adicionar ao Carrinho",
+    "viewDetails": "Ver Detalhes",
+    "backToProducts": "Voltar aos Produtos",
+    "quantity": "Quantidade",
+    "specifications": "Especificações",
+    "materials": "Materiais",
+    "dimensions": "Dimensões",
+    "warranty": "Informações de Garantia",
+    "installation": "Informações de Instalação",
+    "leadTime": "Prazo de Entrega",
+    "minQuantity": "Quantidade Mínima",
+    "maxQuantity": "Quantidade Máxima",
+    "orderPlaced": "Pedido Realizado!",
+    "orderConfirmation": "Obrigado pela sua compra. Você receberá um email de confirmação em breve.",
+    "continueShopping": "Continuar Comprando",
+    "cart": "Carrinho de Compras",
+    "checkout": "Finalizar Compra",
+    "total": "Total"
+  },
+  "aiAssistant": {
+    "title": "FBRsigns AI",
+    "subtitle": "Deixe nosso assistente de IA ajudá-lo a definir seu projeto de sinalização perfeito",
+    "welcome": {
+      "title": "Bem-vindo ao Seu Assistente Pessoal de Projetos",
+      "description": "Não tem certeza de como descrever suas necessidades de sinalização? Sem problema! Nosso assistente de IA fará perguntas simples para ajudar a definir seu projeto perfeito. Seja para placas, banners, camisetas ou materiais promocionais, nós o guiaremos em cada etapa.",
+      "helpDefine": "O que ajudaremos você a definir:",
+      "productType": "Tipo de produto e especificações",
+      "sizeFormat": "Preferências de tamanho e formato",
+      "designStyle": "Necessidades de design e estilo",
+      "timelineBudget": "Cronograma e orçamento",
+      "startButton": "Iniciar Meu Projeto",
+      "starting": "Iniciando..."
+    },
+    "chat": {
+      "placeholder": "Digite sua mensagem...",
+      "thinking": "Pensando...",
+      "generateSummary": "Gerar Resumo do Projeto",
+      "moreInfoNeeded": "Mais informações necessárias",
+      "moreInfoDescription": "Por favor, continue a conversa para coletar mais detalhes do projeto."
+    },
+    "summary": {
+      "title": "Resumo do Projeto Concluído!",
+      "description": "Os detalhes do seu projeto foram compilados e estão prontos para revisão.",
+      "startOver": "Começar Novamente",
+      "requestQuote": "Solicitar Orçamento",
+      "summaryGenerated": "Resumo do Projeto Gerado!",
+      "summaryDescription": "Os detalhes do seu projeto foram compilados. Agora você pode solicitar um orçamento."
+    },
+    "errors": {
+      "startFailed": "Falha ao iniciar conversa. Tente novamente.",
+      "sendFailed": "Falha ao enviar mensagem. Tente novamente.",
+      "summaryFailed": "Falha ao gerar resumo do projeto. Tente novamente."
+    }
+  },
+  "shop": {
+    "title": "Nossos <span class='text-gradient'>Produtos</span>",
+    "subtitle": "Descubra nossa linha de soluções profissionais de sinalização.",
+    "searchPlaceholder": "Buscar produtos...",
+    "selectCategory": "Selecione a categoria",
+    "allProducts": "Todos os Produtos",
+    "gridView": "Visualização em grade",
+    "listView": "Visualização em lista",
+    "loading": "Carregando produtos...",
+    "noResults": "Nenhum produto encontrado para o seu critério.",
+    "perUnit": "por {{unit}}",
+    "productCard": {
+      "viewDetailsLong": "Ver Detalhes",
+      "viewShort": "Ver",
+      "addToCartLong": "Adicionar ao Carrinho",
+      "addShort": "Adicionar",
+      "info": {
+        "fastDelivery": "Entrega Rápida",
+        "warrantyIncluded": "Garantia Inclusa",
+        "professionalInstallation": "Instalação Profissional"
+      }
+    },
+    "categories": {
+      "business_signs": "Placas Comerciais",
+      "digital_displays": "Displays Digitais",
+      "vehicle_wraps": "Adesivação de Veículos",
+      "trade_shows": "Feiras Comerciais",
+      "interior_signage": "Sinalização Interna",
+      "outdoor_advertising": "Publicidade Externa"
+    },
+    "productDetails": {
+      "backToProducts": "Voltar para Produtos",
+      "size": "Tamanho",
+      "selectSize": "Selecionar tamanho",
+      "quantity": "Quantidade",
+      "min": "Mín",
+      "max": "Máx",
+      "addToCart": "Adicionar ao Carrinho",
+      "deliveryIn": "Entrega em {{days}} dias",
+      "warrantyIncluded": "Garantia Inclusa",
+      "premiumQuality": "Qualidade Premium",
+      "tabs": {
+        "description": "Descrição",
+        "specifications": "Especificações",
+        "installation": "Instalação",
+        "warranty": "Garantia"
+      },
+      "noDescription": "Descrição detalhada do produto não disponível.",
+      "material": "Material",
+      "dimensions": "Dimensões",
+      "technicalSpecs": "Especificações Técnicas",
+      "defaultInstallationInfo": "Informações de instalação serão fornecidas junto com o produto. Nossa equipe técnica está disponível para suporte completo.",
+      "defaultWarrantyInfo": "Este produto possui garantia de qualidade e suporte técnico. Entre em contato para mais informações sobre nossa política de garantia.",
+      "notFound": {
+        "title": "Produto Não Encontrado",
+        "description": "O produto que você está procurando não existe.",
+        "backButton": "Voltar para Produtos"
+      },
+      "features": {
+        "premiumQuality": "Qualidade Premium",
+        "warrantyIncluded": "Garantia Inclusa",
+        "fastTurnaround": "Entrega Rápida",
+        "professionalInstall": "Instalação Profissional"
+      },
+      "actions": {
+        "getQuote": "Obter Orçamento",
+        "contactUs": "Entre em Contato"
+      }
+    },
+    "cart": {
+      "title": "Seu Carrinho ({{count}} item)",
+      "title_plural": "Seu Carrinho ({{count}} itens)",
+      "description": "Revise seus itens antes de finalizar a compra",
+      "empty": "Seu carrinho está vazio",
+      "emptyDescription": "Adicione alguns produtos para começar suas compras",
+      "continueShopping": "Continue Comprando",
+      "itemTotal": "Total",
+      "total": "Total",
+      "checkout": "Finalizar Compra"
+    },
+    "checkout": {
+      "title": "Finalizar Compra",
+      "back": "Voltar",
+      "emptyCart": "Carrinho Vazio",
+      "emptyCartDescription": "Adicione produtos ao seu carrinho antes de finalizar a compra.",
+      "backToShopping": "Voltar às Compras",
+      "welcomeBack": "Bem-vindo de volta!",
+      "customer": "Cliente",
+      "email": "Email",
+      "phone": "Telefone",
+      "company": "Empresa",
+      "signOutGuest": "Sair e finalizar como convidado",
+      "haveAccount": "Já tem uma conta?",
+      "signInBenefits": "Faça login para usar suas informações salvas e acompanhar seus pedidos.",
+      "signIn": "Entrar",
+      "createAccount": "Criar Conta",
+      "newCustomersContinue": "Novos clientes podem continuar como convidado abaixo",
+      "shippingAddress": "Endereço de Entrega",
+      "streetAddress": "Endereço",
+      "number": "Número",
+      "apartmentSuite": "Apartamento/Suíte",
+      "neighborhood": "Bairro",
+      "city": "Cidade",
+      "state": "Estado",
+      "zipCode": "CEP",
+      "paymentMethod": "Método de Pagamento",
+      "subtotal": "Subtotal",
+      "total": "Total",
+      "shipping": "Frete",
+      "free": "Grátis",
+      "termsAgreement": "Ao finalizar a compra, você concorda com nossos termos de uso e política de privacidade.",
+      "processing": "Processando...",
+      "placeOrder": "Finalizar Pedido",
+      "signInToOrder": "Faça login para fazer pedido",
+      "orderSummary": "Resumo do Pedido",
+      "signInRequired": "Login necessário",
+      "signInRequiredDescription": "Por favor, faça login para fazer seu pedido. Seu carrinho está salvo.",
+      "errorProcessing": "Erro ao processar pedido",
+      "errorDescription": "Por favor, tente novamente ou entre em contato conosco.",
+      "cardNumber": "Número do Cartão",
+      "cardholderName": "Nome do Portador",
+      "expiryDate": "Data de Vencimento",
+      "cvv": "CVV",
+      "notes": "Observações (Opcional)",
+      "placeholders": {
+        "cardNumber": "1234 5678 9012 3456",
+        "cardholderName": "João Silva",
+        "expiryDate": "MM/AA",
+        "cvv": "123",
+        "paypalEmail": "seu-email@paypal.com",
+        "additionalInfo": "Informações adicionais sobre seu pedido..."
+      },
+      "validation": {
+        "streetRequired": "Endereço deve ter pelo menos 5 caracteres",
+        "numberRequired": "Número é obrigatório",
+        "neighborhoodRequired": "Bairro é obrigatório",
+        "cityRequired": "Cidade é obrigatória",
+        "stateRequired": "Estado é obrigatório",
+        "zipCodeRequired": "CEP deve ter pelo menos 5 dígitos",
+        "cardNumberRequired": "Número do cartão é obrigatório",
+        "cardholderRequired": "Nome do portador é obrigatório",
+        "expiryRequired": "Data de vencimento é obrigatória",
+        "cvvRequired": "CVV é obrigatório",
+        "paypalEmailRequired": "Email do PayPal é obrigatório",
+        "validEmailRequired": "Por favor, insira um endereço de email válido"
+      },
+      "paymentOptions": {
+        "creditCard": "Cartão de Crédito",
+        "paypal": "PayPal"
+      },
+      "sections": {
+        "creditCardInfo": "Informações do Cartão de Crédito",
+        "paypalInfo": "Informações do PayPal"
+      },
+      "paypalEmail": "Email do PayPal",
+      "paypalRedirect": "Você será redirecionado ao PayPal para concluir seu pagamento com segurança."
+    }
+  },
+  "cookiePolicy": {
+    "title": "Política de Cookies",
+    "content": "Usamos cookies e tecnologias semelhantes para manter a segurança, habilitar a funcionalidade do site e melhorar nosso site. Também usamos cookies e tecnologias semelhantes para fins de marketing e para fornecer conteúdo e publicidade personalizados. Você pode rejeitar todos os cookies não estritamente necessários clicando no botão correspondente. Você também pode optar por personalizar suas configurações de cookies. Ao pressionar “Aceitar Todos os Cookies” ou continuar a usar este site, você concorda com nossa Política de Privacidade (exceto na medida em que você optou por não usar certos cookies) e nossos Termos de Uso."
+  },
+  "returnRefundPolicy": {
+    "title": "Política de Troca e Devolução",
+    "lastUpdated": "Última Atualização: 26 de Janeiro de 2026",
+    "intro": "Na FBRSIGNS.com, a satisfação do cliente é muito importante para nós. Esta Política de Troca e Devolução explica as condições sob as quais devoluções, trocas e reembolsos são aceitos.",
+    "sections": [
+      {
+        "title": "1. Produtos Personalizados",
+        "content": "Devido à natureza dos produtos personalizados e feitos sob encomenda: Todos os produtos personalizados não são reembolsáveis nem passíveis de devolução. Isso inclui produtos feitos de acordo com as especificações do cliente, como tamanho, cor, design, texto ou materiais. Exceções: Um reembolso ou substituição pode ser oferecido se: O produto chegar danificado, O produto tiver defeito de fabricação, ou O produto entregue não corresponder às especificações aprovadas do pedido. Reclamações devem ser enviadas dentro de 7 dias após a entrega, com fotos ou vídeos mostrando claramente o problema."
+      },
+      {
+        "title": "2. Produtos Não Personalizados (Padrão)",
+        "content": "Produtos não personalizados podem ser elegíveis para devolução se: O item não foi usado e está em condição original. A solicitação de devolução for feita dentro de 14 dias após a entrega. Uma vez aprovado, o produto deve ser devolvido na embalagem original."
+      },
+      {
+        "title": "3. Direitos do Consumidor – Brasil e União Europeia",
+        "content": "Se você estiver localizado no Brasil ou na União Europeia, poderá ter direitos do consumidor obrigatórios sob a lei local. Brasil (CDC – Direito de Arrependimento): Os clientes podem cancelar uma compra dentro de 7 dias após o recebimento, exceto para produtos personalizados. União Europeia (Diretiva dos Direitos do Consumidor): Os clientes podem desistir de uma compra à distância dentro de 14 dias, exceto para bens feitos sob medida ou personalizados. Esses direitos legais não são afetados por esta Política."
+      },
+      {
+        "title": "4. Processo de Devolução",
+        "content": "Para solicitar uma devolução ou reembolso: Entre em contato conosco em support@fbrsigns.com. Forneça o número do pedido e o motivo da solicitação. Anexe fotos ou vídeos se o produto estiver com defeito ou danificado. Devoluções enviadas sem autorização prévia podem não ser aceitas."
+      },
+      {
+        "title": "5. Custos de Envio de Devolução",
+        "content": "Os clientes são responsáveis pelos custos de envio de devolução, a menos que o produto esteja com defeito ou incorreto. As taxas de envio não são reembolsáveis. Recomendamos usar um método de envio rastreável."
+      },
+      {
+        "title": "6. Reembolsos",
+        "content": "Uma vez que o produto devolvido for recebido e inspecionado: Reembolsos aprovados serão emitidos para o método de pagamento original. Os reembolsos são processados dentro de 5–10 dias úteis, dependendo do provedor de pagamento. Os tempos de processamento bancário ou do cartão podem variar."
+      },
+      {
+        "title": "7. Trocas",
+        "content": "Podemos oferecer trocas para itens com defeito ou danificados, sujeito à disponibilidade. Produtos personalizados podem ser refeitos ou substituídos, mas não reembolsados, a menos que exigido por lei."
+      },
+      {
+        "title": "8. Itens Não Reembolsáveis",
+        "content": "Os seguintes itens não são reembolsáveis: Produtos personalizados ou feitos sob medida. Itens danificados devido a mau uso ou instalação inadequada. Itens devolvidos sem a embalagem original."
+      },
+      {
+        "title": "9. Cancelamento de Pedidos",
+        "content": "Os pedidos podem ser cancelados apenas antes do início da produção. Uma vez iniciada a produção, cancelamentos não são possíveis para itens personalizados."
+      },
+      {
+        "title": "10. Pedidos Internacionais",
+        "content": "Clientes internacionais são responsáveis por: Taxas alfandegárias e impostos de importação. Custos de envio de devolução para devoluções internacionais. FBRSIGNS.com não é responsável por atrasos causados pelo desembaraço aduaneiro."
+      },
+      {
+        "title": "11. Contate-nos",
+        "content": "Se você tiver dúvidas sobre esta Política de Troca e Devolução, entre em contato conosco: Email: support@fbrsigns.com. Site: https://www.fbrsigns.com"
+      }
+    ]
+  }
+}

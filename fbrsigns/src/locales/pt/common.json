@@ -1,0 +1,79 @@
+{
+  "buttons": {
+    "readMore": "Leia Mais",
+    "joinLegion": "Junte-se à Legião",
+    "getQuote": "Solicitar Orçamento",
+    "learnMore": "Saiba Mais",
+    "contact": "Contate-nos",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "close": "Fechar",
+    "viewAll": "Ver Todos",
+    "addToCart": "Adicionar ao Carrinho",
+    "checkout": "Finalizar Compra",
+    "login": "Entrar",
+    "register": "Registrar",
+    "logout": "Sair"
+  },
+  "labels": {
+    "articles": "artigos",
+    "readTime": "min de leitura",
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso",
+    "name": "Nome",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "message": "Mensagem",
+    "address": "Endereço",
+    "city": "Cidade",
+    "state": "Estado",
+    "zip": "CEP",
+    "country": "País",
+    "price": "Preço",
+    "quantity": "Quantidade",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "tax": "Imposto",
+    "shipping": "Frete"
+  },
+  "messages": {
+    "welcomeBack": "Bem-vindo de volta!",
+    "thankYou": "Obrigado!",
+    "comingSoon": "Em Breve",
+    "noResults": "Nenhum resultado encontrado",
+    "errorOccurred": "Ocorreu um erro",
+    "pleaseWait": "Por favor, aguarde...",
+    "formSubmitted": "Formulário enviado com sucesso",
+    "invalidEmail": "Endereço de e-mail inválido",
+    "requiredField": "Este campo é obrigatório"
+  },
+  "auth": {
+    "loginRequired": "Login Necessário",
+    "loginToWishlist": "Por favor, faça login para adicionar itens à sua lista de desejos."
+  },
+  "wishlist": {
+    "title": "Minha Lista de Desejos",
+    "empty": "Sua lista de desejos está vazia",
+    "emptyDesc": "Comece a adicionar itens que você ama!",
+    "removed": "Removido da Lista de Desejos",
+    "removedDesc": "Item removido da sua lista de desejos.",
+    "added": "Adicionado à Lista de Desejos",
+    "addedDesc": "Item adicionado à sua lista de desejos."
+  },
+  "actions": {
+    "search": "Pesquisar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "share": "Compartilhar",
+    "download": "Baixar",
+    "print": "Imprimir",
+    "export": "Exportar",
+    "import": "Importar",
+    "refresh": "Atualizar",
+    "reset": "Redefinir"
+  }
+}

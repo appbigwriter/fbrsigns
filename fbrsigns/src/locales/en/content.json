@@ -1,0 +1,871 @@
+{
+  "hero": {
+    "title": "Transform Your Vision Into",
+    "subtitle": "Stunning Visual Communication",
+    "description": "Professional signage, printing, and creative services that help your business make a lasting impression.",
+    "cta": "Start Your Project"
+  },
+  "stats": {
+    "experience": {
+      "value": "15+",
+      "label": "Years Experience"
+    },
+    "clients": {
+      "value": "2,500+",
+      "label": "Happy Clients"
+    },
+    "projects": {
+      "value": "10,000+",
+      "label": "Projects Completed"
+    },
+    "success": {
+      "value": "99%",
+      "label": "Success Rate"
+    }
+  },
+  "features": {
+    "title": "Our Services FBRSigns",
+    "subtitle": "Comprehensive signage solutions for every business need",
+    "premiumMaterials": {
+      "title": "Premium Quality Materials",
+      "description": "We use only the highest quality materials to ensure your signage lasts for years to come."
+    },
+    "fastTurnaround": {
+      "title": "Fast Turnaround Times",
+      "description": "Quick production and delivery without compromising on quality. Most projects completed within 5-7 business days."
+    },
+    "customDesign": {
+      "title": "Custom Design Services",
+      "description": "Our expert designers work with you to create unique, eye-catching signage that represents your brand perfectly."
+    },
+    "installation": {
+      "title": "Professional Installation",
+      "description": "Expert installation services ensure your signage is mounted safely and looks perfect from day one."
+    }
+  },
+  "products": {
+    "title": "Products Featured",
+    "subtitle": "Comprehensive signage solutions for every business need",
+    "customSigns": {
+      "name": "Custom Business Signs",
+      "description": "Professional storefront signage that makes your business stand out",
+      "price": "Starting at $299",
+      "details": "Premium custom signage solutions tailored to your brand identity. Available in various materials including aluminum, acrylic, and wood."
+    },
+    "digitalLED": {
+      "name": "Digital LED Displays",
+      "description": "Modern digital signage for dynamic content and maximum impact",
+      "price": "Starting at $899",
+      "details": "High-visibility LED displays perfect for indoor and outdoor advertising. Energy efficient and fully programmable."
+    },
+    "vehicleWraps": {
+      "name": "Vehicle Wraps",
+      "description": "Transform your vehicle into a mobile billboard for your business",
+      "price": "Starting at $1,299",
+      "details": "Transform your vehicle into a mobile billboard with our high-quality vinyl wraps. Professional installation included."
+    },
+    "tradeShow": {
+      "name": "Trade Show Displays",
+      "description": "Portable, professional displays that attract attention at events",
+      "price": "Starting at $489",
+      "details": "Portable and impactful trade show displays, banners, and booths designed to attract attention at events."
+    },
+    "viewDetails": "View Details",
+    "viewAllProducts": "View All Products"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to transform your vision into reality? Contact us today for a free consultation and let's discuss your signage needs.",
+    "info": {
+      "office": {
+        "title": "Visit Our Office",
+        "action": "Get Directions"
+      },
+      "phone": {
+        "title": "Call Us Today",
+        "action": "Call Now"
+      },
+      "email": {
+        "title": "Email Us",
+        "action": "Send Email"
+      },
+      "hours": {
+        "title": "Business Hours",
+        "action": "Schedule Call"
+      }
+    },
+    "form": {
+      "title": "Request a Free Quote",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "company": "Company Name",
+      "serviceType": "Service Needed",
+      "budget": "Budget Range",
+      "timeline": "Timeline",
+      "projectDetails": "Project Details",
+      "submit": "Send Quote Request",
+      "response": "We'll respond within 2 hours during business hours"
+    },
+    "showroom": {
+      "title": "Visit Our Showroom",
+      "whyVisit": "Why Visit Our Showroom?",
+      "reasons": {
+        "materials": "See material samples and quality up close",
+        "portfolio": "View completed projects and portfolio",
+        "consultation": "Meet our design team for consultation",
+        "pricing": "Get instant pricing and project timelines"
+      }
+    },
+    "help": {
+      "title": "Need Immediate Help?",
+      "call": "Call: (555) 123-4567",
+      "email": "Email: info@fbrsigns.com"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive signage solutions from concept to completion. We handle every aspect of your project with expertise and care.",
+    "design": {
+      "title": "Design Services",
+      "description": "Custom logo design, branding, and layout design tailored to your business needs.",
+      "startingPrice": "$199",
+      "features": [
+        "Custom Logo Design",
+        "Brand Identity Development",
+        "Layout & Mockup Creation",
+        "Color Scheme Consultation"
+      ],
+      "process": [
+        "Initial Consultation",
+        "Concept Development",
+        "Design Refinement",
+        "Final Approval"
+      ],
+      "timeline": "3-5 business days"
+    },
+    "production": {
+      "title": "Production Services",
+      "description": "State-of-the-art printing and fabrication using premium materials and cutting-edge technology.",
+      "startingPrice": "$299",
+      "features": [
+        "Digital Printing",
+        "Vinyl Cutting & Application",
+        "Metal Fabrication",
+        "Lamination & Finishing"
+      ],
+      "process": [
+        "File Preparation",
+        "Material Selection",
+        "Production",
+        "Quality Control"
+      ],
+      "timeline": "2-7 business days"
+    },
+    "installation": {
+      "title": "Installation Services",
+      "description": "Professional installation by certified technicians ensuring perfect placement and safety compliance.",
+      "startingPrice": "$149",
+      "features": [
+        "Professional Mounting",
+        "Electrical Connections",
+        "Site Preparation",
+        "Safety Compliance"
+      ],
+      "process": [
+        "Site Survey",
+        "Installation Planning",
+        "Professional Installation",
+        "Final Testing"
+      ],
+      "timeline": "1-3 business days"
+    },
+    "maintenance": {
+      "title": "Maintenance & Support",
+      "description": "Ongoing maintenance services to keep your signage looking perfect and functioning optimally.",
+      "startingPrice": "$99/month",
+      "features": [
+        "Regular Cleaning",
+        "Repair Services",
+        "Content Updates",
+        "24/7 Support"
+      ],
+      "process": [
+        "Maintenance Schedule",
+        "Regular Inspections",
+        "Preventive Care",
+        "Emergency Repairs"
+      ],
+      "timeline": "Ongoing"
+    },
+    "featuresIncluded": "Features Included:",
+    "ourProcess": "Our Process:",
+    "getQuote": "Get Quote",
+    "process": {
+      "title": "Our Process",
+      "subtitle": "From initial consultation to final installation, we guide you through every step",
+      "consultation": {
+        "title": "Consultation",
+        "description": "We discuss your needs, budget, and vision to create the perfect solution"
+      },
+      "design": {
+        "title": "Design & Mockup",
+        "description": "Our designers create detailed mockups and renderings for your approval"
+      },
+      "production": {
+        "title": "Production",
+        "description": "We manufacture your signage using premium materials and advanced techniques"
+      },
+      "installation": {
+        "title": "Installation",
+        "description": "Professional installation ensuring perfect placement and functionality"
+      },
+      "support": {
+        "title": "Ongoing Support",
+        "description": "Continuous maintenance and support to keep your signage looking its best"
+      }
+    },
+    "whyChoose": {
+      "title": "Why Choose FBR Signs?",
+      "expertise": {
+        "title": "20+ Years Experience",
+        "description": "Decades of expertise in creating impactful signage solutions"
+      },
+      "turnaround": {
+        "title": "Fast Turnaround",
+        "description": "Quick delivery without compromising on quality"
+      },
+      "quality": {
+        "title": "Premium Quality",
+        "description": "Using only the finest materials and latest technology"
+      },
+      "delivery": {
+        "title": "On-Time Delivery",
+        "description": "Reliable scheduling and prompt project completion"
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Let's discuss your project and create a custom solution that perfectly fits your needs and budget.",
+      "button": "Get Free Consultation",
+      "portfolio": "View Our Work"
+    },
+    "digitalSigns": {
+      "title": "Digital LED Signs",
+      "description": "Eye-catching digital displays that capture attention and drive foot traffic"
+    },
+    "illuminatedSigns": {
+      "title": "Illuminated Signs",
+      "description": "Bright, professional lighting solutions that make your business visible 24/7"
+    },
+    "vehicleWraps": {
+      "title": "Vehicle Wraps",
+      "description": "Transform your fleet into mobile advertising with our premium vehicle wraps"
+    },
+    "storefrontSigns": {
+      "title": "Storefront Signs",
+      "description": "Professional storefront signage that attracts customers and builds your brand"
+    },
+    "tradeShows": {
+      "title": "Trade Show Displays",
+      "description": "Portable, impactful displays that help you stand out at conventions and events"
+    }
+  },
+  "about": {
+    "title": "About FBR Signs",
+    "subtitle": "Your trusted partner in professional signage solutions",
+    "description": "With over 20 years of experience in the signage industry, FBR Signs has established itself as a premier provider of custom signage solutions. We combine traditional craftsmanship with cutting-edge technology to deliver exceptional results.",
+    "mission": "Our mission is to help businesses communicate their brand message effectively through innovative, high-quality signage that stands the test of time.",
+    "story": {
+      "title": "Our Story",
+      "content1": "Founded in 2009 with a vision to transform visual communication, FBR Signs has grown from a small local business to a leading signage company serving clients across multiple states.",
+      "content2": "Our journey has been marked by continuous innovation, unwavering commitment to quality, and a passion for helping businesses stand out in today's competitive marketplace.",
+      "content3": "We combine traditional craftsmanship with cutting-edge technology to deliver exceptional results that exceed our clients' expectations every time."
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide everything we do",
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for perfection in every project, from design concept to final installation."
+      },
+      "customerFocus": {
+        "title": "Customer Focus",
+        "description": "Your success is our success. We prioritize your needs and exceed expectations."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We embrace new technologies and creative solutions to stay ahead of the curve."
+      },
+      "teamwork": {
+        "title": "Teamwork",
+        "description": "Our collaborative approach ensures every project benefits from our collective expertise."
+      }
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "subtitle": "The talented professionals behind your success",
+      "members": [
+        {
+          "name": "Sarah Johnson",
+          "role": "Founder & CEO",
+          "bio": "With over 15 years in the signage industry, Sarah leads our team with passion and expertise.",
+          "image": "/placeholder.svg"
+        },
+        {
+          "name": "Mike Rodriguez",
+          "role": "Creative Director",
+          "bio": "Mike brings innovative design thinking and ensures every project exceeds expectations.",
+          "image": "/placeholder.svg"
+        },
+        {
+          "name": "Emily Chen",
+          "role": "Production Manager",
+          "bio": "Emily oversees quality control and ensures timely delivery of all our projects.",
+          "image": "/placeholder.svg"
+        },
+        {
+          "name": "David Thompson",
+          "role": "Installation Specialist",
+          "bio": "David leads our installation team with precision and commitment to safety.",
+          "image": "/placeholder.svg"
+        }
+      ]
+    },
+    "milestones": {
+      "title": "Our Journey",
+      "subtitle": "Key milestones in our company's growth",
+      "items": [
+        {
+          "year": "2009",
+          "title": "Company Founded",
+          "description": "Started with a vision to transform visual communication"
+        },
+        {
+          "year": "2012",
+          "title": "1,000 Projects",
+          "description": "Reached our first major milestone with 1,000 completed projects"
+        },
+        {
+          "year": "2015",
+          "title": "Digital Expansion",
+          "description": "Added digital signage and LED display services"
+        },
+        {
+          "year": "2018",
+          "title": "Regional Growth",
+          "description": "Expanded operations to serve clients across three states"
+        },
+        {
+          "year": "2021",
+          "title": "Sustainability Focus",
+          "description": "Launched eco-friendly materials and sustainable practices"
+        },
+        {
+          "year": "2024",
+          "title": "10,000+ Projects",
+          "description": "Celebrating over 10,000 successful projects and counting"
+        }
+      ]
+    },
+    "whyChooseUs": "Why Choose Us",
+    "experience": "20+ Years Experience",
+    "customSolutions": "Custom Solutions",
+    "qualityMaterials": "Premium Materials",
+    "professionalInstallation": "Professional Installation"
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "client1": {
+      "name": "Sarah Johnson",
+      "company": "Local Restaurant Owner",
+      "quote": "FBR Signs transformed our storefront with a beautiful illuminated sign. Our foot traffic increased by 40% in the first month!"
+    },
+    "client2": {
+      "name": "Mike Chen",
+      "company": "Retail Store Manager",
+      "quote": "The digital LED sign has been a game-changer for our promotions. The quality and service exceeded our expectations."
+    },
+    "client3": {
+      "name": "Lisa Rodriguez",
+      "company": "Medical Practice",
+      "quote": "Professional, reliable, and creative. FBR Signs delivered exactly what we envisioned for our medical center."
+    }
+  },
+  "cta": {
+    "title": "Ready to Transform Your Business?",
+    "subtitle": "Get a free consultation and quote for your signage project today",
+    "button": "Get Free Quote"
+  },
+  "portfolio": {
+    "title": "Our Portfolio",
+    "subtitle": "Explore our recent projects and see how we've helped businesses transform their visual communication and stand out from the competition.",
+    "categories": [
+      "All Projects",
+      "Business Signs",
+      "Digital Displays",
+      "Vehicle Wraps",
+      "Trade Shows",
+      "Interior Signage",
+      "Outdoor Advertising"
+    ],
+    "projects": [
+      {
+        "title": "Modern Restaurant Signage",
+        "category": "Business Signs",
+        "client": "Bella Vista Restaurant",
+        "description": "Complete signage package including storefront sign, menu boards, and interior wayfinding.",
+        "tags": [
+          "LED",
+          "Acrylic",
+          "Interior Design"
+        ],
+        "year": "2024"
+      },
+      {
+        "title": "Digital Billboard Campaign",
+        "category": "Digital Displays",
+        "client": "Tech Solutions Inc",
+        "description": "Large-format LED display for high-traffic advertising with dynamic content management.",
+        "tags": [
+          "LED",
+          "Digital",
+          "High-Traffic"
+        ],
+        "year": "2024"
+      },
+      {
+        "title": "Fleet Vehicle Wraps",
+        "category": "Vehicle Wraps",
+        "client": "Green Clean Services",
+        "description": "Complete fleet branding with eye-catching vehicle wraps for 12 service vehicles.",
+        "tags": [
+          "Fleet",
+          "Branding",
+          "Vinyl"
+        ],
+        "year": "2023"
+      },
+      {
+        "title": "Trade Show Booth Design",
+        "category": "Trade Shows",
+        "client": "Innovation Expo 2024",
+        "description": "Modular trade show display system with integrated lighting and interactive elements.",
+        "tags": [
+          "Modular",
+          "Interactive",
+          "Portable"
+        ],
+        "year": "2024"
+      },
+      {
+        "title": "Corporate Office Signage",
+        "category": "Interior Signage",
+        "client": "Atlantic Financial Group",
+        "description": "Professional interior signage suite including lobby display, directional signs, and room identification.",
+        "tags": [
+          "Corporate",
+          "Wayfinding",
+          "Professional"
+        ],
+        "year": "2023"
+      },
+      {
+        "title": "Shopping Center Directory",
+        "category": "Outdoor Advertising",
+        "client": "Riverside Shopping Plaza",
+        "description": "Large-scale directory sign with illuminated tenant panels and map integration.",
+        "tags": [
+          "Directory",
+          "Illuminated",
+          "Large-Scale"
+        ],
+        "year": "2024"
+      },
+      {
+        "title": "Medical Center Wayfinding",
+        "category": "Interior Signage",
+        "client": "Sunrise Medical Center",
+        "description": "Comprehensive wayfinding system with ADA-compliant signage throughout the facility.",
+        "tags": [
+          "ADA Compliant",
+          "Healthcare",
+          "Wayfinding"
+        ],
+        "year": "2023"
+      },
+      {
+        "title": "Real Estate Development Signs",
+        "category": "Business Signs",
+        "client": "Premier Properties",
+        "description": "Monument signs, directional signage, and sales center displays for luxury development.",
+        "tags": [
+          "Monument",
+          "Luxury",
+          "Development"
+        ],
+        "year": "2024"
+      }
+    ],
+    "statsTitle": "Project Statistics",
+    "stats": [
+      {
+        "value": "150+",
+        "label": "Projects This Year"
+      },
+      {
+        "value": "98%",
+        "label": "Client Satisfaction"
+      },
+      {
+        "value": "25",
+        "label": "Industry Awards"
+      },
+      {
+        "value": "5.0",
+        "label": "Average Rating"
+      }
+    ],
+    "ctaTitle": "Inspired by Our Work?",
+    "ctaSubtitle": "Let's create something amazing for your business. Every project starts with understanding your unique needs and vision.",
+    "ctaButton": "Start Your Project",
+    "ctaSecondary": "Schedule Consultation",
+    "viewDetails": "View Details",
+    "startSimilar": "Start Similar Project",
+    "getQuote": "Get Quote",
+    "projectTags": "Project Tags",
+    "noProjects": "No projects found in this category."
+  },
+  "quote": {
+    "title": "Request a Quote",
+    "subtitle": "Get a personalized quote for your signage project. Fill out the form below and we'll get back to you within 24 hours.",
+    "contactInfo": "Contact Information",
+    "projectDetails": "Project Details",
+    "additionalInfo": "Additional Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "company": "Company Name (Optional)",
+    "projectType": "Project Type",
+    "selectProjectType": "Select project type",
+    "projectTypes": [
+      "Business Signage",
+      "Digital LED Display",
+      "Vehicle Wrap",
+      "Trade Show Display",
+      "Interior Signage",
+      "Outdoor Advertising",
+      "Custom Project"
+    ],
+    "budget": "Estimated Budget",
+    "selectBudget": "Select budget range",
+    "budgetRanges": [
+      "Under $500",
+      "$500 - $1,000",
+      "$1,000 - $2,500",
+      "$2,500 - $5,000",
+      "$5,000 - $10,000",
+      "Over $10,000"
+    ],
+    "timeline": "Desired Timeline",
+    "selectTimeline": "Select timeline",
+    "timelines": [
+      "ASAP",
+      "Within 2 weeks",
+      "Within 1 month",
+      "Within 2-3 months",
+      "Flexible"
+    ],
+    "description": "Project Description",
+    "descriptionPlaceholder": "Please provide details about your project, including size, materials, installation requirements, and any specific design preferences...",
+    "attachments": "Attachments (Optional)",
+    "attachmentsText": "Attach reference images, logos, or design files",
+    "submitButton": "Submit Quote Request",
+    "submitting": "Submitting...",
+    "successTitle": "Quote Request Submitted!",
+    "successMessage": "Thank you for your interest! We'll review your request and get back to you within 24 hours with a detailed quote.",
+    "backToHome": "Back to Home"
+  },
+  "ecommerce": {
+    "searchPlaceholder": "Search products...",
+    "filterByCategory": "Filter by category",
+    "allCategories": "All Categories",
+    "viewModes": {
+      "grid": "Grid View",
+      "list": "List View"
+    },
+    "loading": "Loading products...",
+    "noProducts": "No products found",
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "backToProducts": "Back to Products",
+    "quantity": "Quantity",
+    "specifications": "Specifications",
+    "materials": "Materials",
+    "dimensions": "Dimensions",
+    "warranty": "Warranty Information",
+    "installation": "Installation Information",
+    "leadTime": "Lead Time",
+    "minQuantity": "Minimum Quantity",
+    "maxQuantity": "Maximum Quantity",
+    "orderPlaced": "Order Placed!",
+    "orderConfirmation": "Thank you for your purchase. You will receive a confirmation email shortly.",
+    "continueShopping": "Continue Shopping",
+    "cart": "Shopping Cart",
+    "checkout": "Checkout",
+    "total": "Total"
+  },
+  "aiAssistant": {
+    "title": "FBRsigns AI",
+    "subtitle": "Let our AI assistant help you define your perfect signage project",
+    "welcome": {
+      "title": "Welcome to Your Personal Project Assistant",
+      "description": "Not sure how to describe your signage needs? No problem! Our AI assistant will ask you simple questions to help define your perfect project. Whether it's signs, banners, t-shirts, or promotional materials, we'll guide you through every step.",
+      "helpDefine": "What we'll help you define:",
+      "productType": "Product type & specifications",
+      "sizeFormat": "Size and format preferences",
+      "designStyle": "Design and style needs",
+      "timelineBudget": "Timeline and budget",
+      "startButton": "Start My Project",
+      "starting": "Starting..."
+    },
+    "chat": {
+      "placeholder": "Type your message...",
+      "thinking": "Thinking...",
+      "generateSummary": "Generate Project Summary",
+      "moreInfoNeeded": "More information needed",
+      "moreInfoDescription": "Please continue the conversation to gather more project details."
+    },
+    "summary": {
+      "title": "Project Summary Complete!",
+      "description": "Your project details have been compiled and are ready for review.",
+      "startOver": "Start Over",
+      "requestQuote": "Request Quote",
+      "summaryGenerated": "Project Summary Generated!",
+      "summaryDescription": "Your project details have been compiled. You can now request a quote."
+    },
+    "errors": {
+      "startFailed": "Failed to start conversation. Please try again.",
+      "sendFailed": "Failed to send message. Please try again.",
+      "summaryFailed": "Failed to generate project summary. Please try again."
+    }
+  },
+  "shop": {
+    "title": "Our <span class='text-gradient'>Products</span>",
+    "subtitle": "Discover our range of professional signage solutions.",
+    "searchPlaceholder": "Search products...",
+    "selectCategory": "Select category",
+    "allProducts": "All Products",
+    "gridView": "Grid view",
+    "listView": "List view",
+    "loading": "Loading products...",
+    "noResults": "No products found matching your criteria.",
+    "perUnit": "per {{unit}}",
+    "productCard": {
+      "viewDetailsLong": "View Details",
+      "viewShort": "View",
+      "addToCartLong": "Add to Cart",
+      "addShort": "Add",
+      "info": {
+        "fastDelivery": "Fast Delivery",
+        "warrantyIncluded": "Warranty Included",
+        "professionalInstallation": "Professional Installation"
+      }
+    },
+    "categories": {
+      "business_signs": "Business Signs",
+      "digital_displays": "Digital Displays",
+      "vehicle_wraps": "Vehicle Wraps",
+      "trade_shows": "Trade Shows",
+      "interior_signage": "Interior Signage",
+      "outdoor_advertising": "Outdoor Advertising"
+    },
+    "productDetails": {
+      "backToProducts": "Back to Products",
+      "size": "Size",
+      "selectSize": "Select a size",
+      "quantity": "Quantity",
+      "min": "Min",
+      "max": "Max",
+      "addToCart": "Add to Cart",
+      "deliveryIn": "Delivery in {{days}} days",
+      "warrantyIncluded": "Warranty Included",
+      "premiumQuality": "Premium Quality",
+      "tabs": {
+        "description": "Description",
+        "specifications": "Specifications",
+        "installation": "Installation",
+        "warranty": "Warranty"
+      },
+      "noDescription": "Detailed product description not available.",
+      "material": "Material",
+      "dimensions": "Dimensions",
+      "technicalSpecs": "Technical Specifications",
+      "defaultInstallationInfo": "Installation information will be provided with the product. Our technical team is available for complete support.",
+      "defaultWarrantyInfo": "This product comes with quality warranty and technical support. Contact us for more information about our warranty policy.",
+      "notFound": {
+        "title": "Product Not Found",
+        "description": "The product you are looking for does not exist.",
+        "backButton": "Back to Products"
+      },
+      "features": {
+        "premiumQuality": "Premium Quality",
+        "warrantyIncluded": "Warranty Included",
+        "fastTurnaround": "Fast Turnaround",
+        "professionalInstall": "Professional Install"
+      },
+      "actions": {
+        "getQuote": "Get a Quote",
+        "contactUs": "Contact Us"
+      }
+    },
+    "cart": {
+      "title": "Your Cart ({{count}} item)",
+      "title_plural": "Your Cart ({{count}} items)",
+      "description": "Review your items before checkout",
+      "empty": "Your cart is empty",
+      "emptyDescription": "Add some products to start shopping",
+      "continueShopping": "Continue Shopping",
+      "itemTotal": "Total",
+      "total": "Total",
+      "checkout": "Checkout"
+    },
+    "checkout": {
+      "title": "Checkout",
+      "back": "Back",
+      "emptyCart": "Empty Cart",
+      "emptyCartDescription": "Add products to your cart before checkout.",
+      "backToShopping": "Back to Shopping",
+      "welcomeBack": "Welcome back!",
+      "customer": "Customer",
+      "email": "Email",
+      "phone": "Phone",
+      "company": "Company",
+      "signOutGuest": "Sign out and checkout as guest",
+      "haveAccount": "Already have an account?",
+      "signInBenefits": "Sign in to use your saved information and track your orders.",
+      "signIn": "Sign In",
+      "createAccount": "Create Account",
+      "newCustomersContinue": "New customers can continue as guest below",
+      "shippingAddress": "Shipping Address",
+      "streetAddress": "Street Address",
+      "number": "Number",
+      "apartmentSuite": "Apartment/Suite",
+      "neighborhood": "Neighborhood",
+      "city": "City",
+      "state": "State",
+      "zipCode": "ZIP Code",
+      "paymentMethod": "Payment Method",
+      "subtotal": "Subtotal",
+      "total": "Total",
+      "shipping": "Shipping",
+      "free": "Free",
+      "termsAgreement": "By completing your purchase, you agree to our terms of use and privacy policy.",
+      "processing": "Processing...",
+      "placeOrder": "Place Order",
+      "signInToOrder": "Sign in to place order",
+      "orderSummary": "Order Summary",
+      "signInRequired": "Sign in required",
+      "signInRequiredDescription": "Please sign in to place your order. Your cart is saved.",
+      "errorProcessing": "Error processing order",
+      "errorDescription": "Please try again or contact us.",
+      "cardNumber": "Card Number",
+      "cardholderName": "Cardholder Name",
+      "expiryDate": "Expiry Date",
+      "cvv": "CVV",
+      "notes": "Notes (Optional)",
+      "placeholders": {
+        "cardNumber": "1234 5678 9012 3456",
+        "cardholderName": "John Doe",
+        "expiryDate": "MM/YY",
+        "cvv": "123",
+        "paypalEmail": "your-email@paypal.com",
+        "additionalInfo": "Additional information about your order..."
+      },
+      "validation": {
+        "streetRequired": "Address must be at least 5 characters",
+        "numberRequired": "Number is required",
+        "neighborhoodRequired": "Neighborhood is required",
+        "cityRequired": "City is required",
+        "stateRequired": "State is required",
+        "zipCodeRequired": "ZIP code must be at least 5 digits",
+        "cardNumberRequired": "Card number is required",
+        "cardholderRequired": "Cardholder name is required",
+        "expiryRequired": "Expiry date is required",
+        "cvvRequired": "CVV is required",
+        "paypalEmailRequired": "PayPal email is required",
+        "validEmailRequired": "Please enter a valid email address"
+      },
+      "paymentOptions": {
+        "creditCard": "Credit Card",
+        "paypal": "PayPal"
+      },
+      "sections": {
+        "creditCardInfo": "Credit Card Information",
+        "paypalInfo": "PayPal Information"
+      },
+      "paypalEmail": "PayPal Email Address",
+      "paypalRedirect": "You will be redirected to PayPal to complete your payment securely."
+    }
+  },
+  "cookiePolicy": {
+    "title": "Cookie Policy",
+    "content": "We use cookies and similar technologies to maintain security, enable site functionality, and improve our site. We also use cookies and similar technologies for marketing purposes and to provide personalized content and advertising. You can reject all non-strictly necessary cookies by clicking the corresponding button. You may also choose to customize your cookie settings. By pressing “Accept All Cookies” or continuing to use this site you agree to ourPrivacy Policy (except to the extent you have opted out of certain cookies) and our Terms of Use"
+  },
+  "returnRefundPolicy": {
+    "title": "Return & Refund Policy",
+    "lastUpdated": "Last Updated: January 26, 2026",
+    "intro": "At FBRSIGNS.com, customer satisfaction is very important to us. This Return & Refund Policy explains the conditions under which returns, exchanges, and refunds are accepted.",
+    "sections": [
+      {
+        "title": "1. Customized & Personalized Products",
+        "content": "Due to the nature of customized and made-to-order products: All customized or personalized products are non-refundable and non-returnable. This includes products made according to customer specifications such as size, color, design, text, or materials. Exceptions: A refund or replacement may be offered if: The product arrives damaged, The product has a manufacturing defect, or The delivered product does not match the approved order specifications. Claims must be submitted within 7 days of delivery, with photos or videos clearly showing the issue."
+      },
+      {
+        "title": "2. Non-Customized (Standard) Products",
+        "content": "Non-customized products may be eligible for return if: The item is unused and in original condition. The return request is made within 14 days of delivery. Once approved, the product must be returned in original packaging."
+      },
+      {
+        "title": "3. Consumer Rights – Brazil & European Union",
+        "content": "If you are located in Brazil or the European Union, you may be entitled to mandatory consumer rights under local law. Brazil (CDC – Right of Withdrawal): Customers may cancel a purchase within 7 days of receipt, except for customized or personalized products. European Union (Consumer Rights Directive): Customers may withdraw from a distance purchase within 14 days, except for custom-made or personalized goods. These legal rights are not affected by this Policy."
+      },
+      {
+        "title": "4. Return Process",
+        "content": "To request a return or refund: Contact us at support@fbrsigns.com. Provide your order number and reason for the request. Attach photos or videos if the product is defective or damaged. Returns sent without prior authorization may not be accepted."
+      },
+      {
+        "title": "5. Return Shipping Costs",
+        "content": "Customers are responsible for return shipping costs unless the product is defective or incorrect. Shipping fees are non-refundable. We recommend using a trackable shipping method."
+      },
+      {
+        "title": "6. Refunds",
+        "content": "Once the returned product is received and inspected: Approved refunds will be issued to the original payment method. Refunds are processed within 5–10 business days, depending on the payment provider. Bank or card processing times may vary."
+      },
+      {
+        "title": "7. Exchanges",
+        "content": "We may offer exchanges for defective or damaged items, subject to availability. Customized products may be remade or replaced, but not refunded, unless legally required."
+      },
+      {
+        "title": "8. Non-Returnable Items",
+        "content": "The following items are non-returnable: Customized or personalized products. Items damaged due to misuse or improper installation. Items returned without original packaging."
+      },
+      {
+        "title": "9. Order Cancellations",
+        "content": "Orders may be canceled only before production begins. Once production has started, cancellations are not possible for customized items."
+      },
+      {
+        "title": "10. International Orders",
+        "content": "International customers are responsible for: Customs duties and import taxes. Return shipping costs for international returns. FBRSIGNS.com is not responsible for delays caused by customs clearance."
+      },
+      {
+        "title": "11. Contact Us",
+        "content": "If you have questions about this Return & Refund Policy, please contact us: Email: support@fbrsigns.com. Website: https://www.fbrsigns.com"
+      }
+    ]
+  }
+}
