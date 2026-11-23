@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { 
   MapPin, 
@@ -8,7 +8,12 @@ import {
   Send,
   MessageSquare,
   User,
-  Building
+  Building,
+  Paperclip,
+  UploadCloud,
+  X,
+  File,
+  AlertCircle
 } from "lucide-react";
 import { PageLayout } from "@/components/layout/PageLayout";
 import { GlassCard } from "@/components/ui/glass-card";
@@ -18,6 +23,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useCompanyInfo } from "@/hooks/useCompanyInfo";
+import { supabase } from "@/integrations/supabase/client";
+import { toast } from "@/hooks/use-toast";
 
 const contactInfo = [
   {
@@ -109,14 +116,149 @@ export default function Contact() {
     }
   ];
 
+  const [selectedFile, setSelectedFile] = useState<File | null>(null);
+  const [fileError, setFileError] = useState<string | null>(null);
+  const [isDragging, setIsDragging] = useState<boolean>(false);
+  const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const formatFileSize = (bytes: number): string => {
+    if (bytes < 1024) return bytes + ' B';
+    if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+    return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+  };
+
+  const handleValidateAndSetFile = (file: File) => {
+    setFileError(null);
+    const maxSize = 25 * 1024 * 1024; // 25MB
+    if (file.size > maxSize) {
+      setFileError('File size exceeds the 25MB limit.');
+      return;
+    }
+    setSelectedFile(file);
+  };
+
+  const handleDragOver = (e: React.DragEvent) => {
+    e.preventDefault();
+    setIsDragging(true);
+  };
+
+  const handleDragLeave = (e: React.DragEvent) => {
+    e.preventDefault();
+    setIsDragging(false);
+  };
+
+  const handleDrop = (e: React.DragEvent) => {
+    e.preventDefault();
+    setIsDragging(false);
+    if (e.dataTransfer.files && e.dataTransfer.files[0]) {
+      handleValidateAndSetFile(e.dataTransfer.files[0]);
+    }
+  };
+
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (e.target.files && e.target.files[0]) {
+      handleValidateAndSetFile(e.target.files[0]);
+    }
+  };
+
+  const handleRemoveFile = () => {
+    setSelectedFile(null);
+    setFileError(null);
+    if (fileInputRef.current) {
+      fileInputRef.current.value = '';
+    }
+  };
+
   const handleInputChange = (field: string, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission
-    console.log("Form submitted:", formData);
+    setIsSubmitting(true);
+    try {
+      let arquivoUrl: string | null = null;
+      let arquivoNome: string | null = null;
+
+      if (selectedFile) {
+        arquivoNome = selectedFile.name;
+        const fileExt = selectedFile.name.split('.').pop() || 'bin';
+        const cleanName = selectedFile.name
+          .replace(/[^a-zA-Z0-9.-]/g, '_')
+          .substring(0, 40);
+        const uniqueFileName = `${Date.now()}_${cleanName}.${fileExt}`;
+        const filePath = `quotes/${uniqueFileName}`;
+
+        const { error: uploadError } = await supabase.storage
+          .from('quote-attachments')
+          .upload(filePath, selectedFile, {
+            cacheControl: '3600',
+            upsert: false,
+          });
+
+        if (uploadError) {
+          console.warn('Could not upload file to quote-attachments bucket:', uploadError);
+        } else {
+          const { data: urlData } = supabase.storage
+            .from('quote-attachments')
+            .getPublicUrl(filePath);
+          arquivoUrl = urlData?.publicUrl || null;
+        }
+      }
+
+      let fullDescription = formData.projectDetails;
+      if (formData.budget) fullDescription += `\nBudget: ${formData.budget}`;
+      if (formData.timeline) fullDescription += `\nTimeline: ${formData.timeline}`;
+      if (arquivoUrl) fullDescription += `\n\n📎 Attached File: ${arquivoNome}\n${arquivoUrl}`;
+
+      const { error } = await supabase.from('orcamentos').insert({
+        nome: `${formData.firstName} ${formData.lastName}`.trim(),
+        email: formData.email,
+        telefone: formData.phone || null,
+        empresa: formData.company || null,
+        servico: formData.serviceType || 'General Quote',
+        descricao: fullDescription,
+        arquivo_url: arquivoUrl,
+        arquivo_nome: arquivoNome,
+        status: 'pendente',
+        prioridade: 'media',
+      });
+
+      if (error) {
+        console.error('Error submitting quote:', error);
+        throw error;
+      }
+
+      toast({
+        title: "Quote requested successfully!",
+        description: selectedFile
+          ? "We received your request and attachment. We will contact you shortly."
+          : "We will contact you shortly.",
+      });
+
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        company: "",
+        serviceType: "",
+        projectDetails: "",
+        budget: "",
+        timeline: ""
+      });
+      handleRemoveFile();
+    } catch (error) {
+      console.error('Submission error:', error);
+      toast({
+        title: "Error submitting quote request",
+        description: "Please try again or contact us directly.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -323,10 +465,84 @@ export default function Contact() {
                     </div>
                   </div>
 
+                  {/* File Upload Field */}
+                  <div className="space-y-2">
+                    <Label className="flex items-center gap-2">
+                      <Paperclip className="h-4 w-4" />
+                      Attach File / Project Reference (Optional)
+                    </Label>
+                    <p className="text-xs text-muted-foreground">
+                      Upload your logo, layout, artwork, sketch or document (PNG, JPG, PDF, SVG, AI, EPS, ZIP up to 25MB).
+                    </p>
+
+                    {!selectedFile ? (
+                      <div
+                        onClick={() => fileInputRef.current?.click()}
+                        onDragOver={handleDragOver}
+                        onDragLeave={handleDragLeave}
+                        onDrop={handleDrop}
+                        className={`border-2 border-dashed rounded-lg p-5 text-center cursor-pointer transition-all duration-200 ${
+                          isDragging
+                            ? 'border-primary bg-primary/10 scale-[1.01]'
+                            : 'border-border/80 hover:border-primary/60 hover:bg-muted/40'
+                        }`}
+                      >
+                        <input
+                          ref={fileInputRef}
+                          type="file"
+                          onChange={handleFileChange}
+                          accept=".png,.jpg,.jpeg,.webp,.svg,.pdf,.ai,.eps,.psd,.zip,.doc,.docx"
+                          className="hidden"
+                        />
+                        <div className="flex flex-col items-center justify-center gap-2">
+                          <div className="p-2.5 rounded-full bg-primary/10 text-primary">
+                            <UploadCloud className="h-5 w-5" />
+                          </div>
+                          <div className="text-sm">
+                            <span className="font-semibold text-primary hover:underline">
+                              Click to upload
+                            </span>{' '}
+                            or drag and drop your file here
+                          </div>
+                          <p className="text-xs text-muted-foreground">
+                            Accepted formats: PDF, Images, Vector (AI/EPS/SVG), CAD, ZIP (Max 25MB)
+                          </p>
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="flex items-center justify-between p-3.5 border rounded-lg bg-card/60 border-primary/30">
+                        <div className="flex items-center gap-3 overflow-hidden">
+                          <div className="p-2 rounded bg-primary/10 text-primary shrink-0">
+                            <File className="h-5 w-5" />
+                          </div>
+                          <div className="overflow-hidden">
+                            <p className="text-sm font-medium truncate max-w-xs sm:max-w-md">{selectedFile.name}</p>
+                            <p className="text-xs text-muted-foreground">{formatFileSize(selectedFile.size)}</p>
+                          </div>
+                        </div>
+                        <button
+                          type="button"
+                          onClick={handleRemoveFile}
+                          className="p-1.5 rounded-full hover:bg-destructive/15 text-muted-foreground hover:text-destructive transition-colors"
+                          title="Remove file"
+                        >
+                          <X className="h-4 w-4" />
+                        </button>
+                      </div>
+                    )}
+
+                    {fileError && (
+                      <p className="text-sm text-destructive flex items-center gap-1.5 mt-1">
+                        <AlertCircle className="h-4 w-4 shrink-0" />
+                        {fileError}
+                      </p>
+                    )}
+                  </div>
+
                   {/* Submit Button */}
-                  <GlassButton type="submit" variant="hero" size="lg" className="w-full">
+                  <GlassButton type="submit" variant="hero" size="lg" className="w-full" disabled={isSubmitting}>
                     <Send className="mr-2 h-5 w-5" />
-                    Send Quote Request
+                    {isSubmitting ? "Sending Quote Request..." : "Send Quote Request"}
                   </GlassButton>
 
                   <p className="text-sm text-muted-foreground text-center">

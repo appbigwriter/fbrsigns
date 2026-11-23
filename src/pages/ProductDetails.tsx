@@ -202,7 +202,7 @@ export default function ProductDetails() {
                         </div>
 
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <GlassButton size="xl" onClick={() => window.location.href = '/contact'}>
+                            <GlassButton size="xl" onClick={() => window.location.href = '/quote-request'}>
                                 {t('content:shop.productDetails.actions.getQuote')}
                             </GlassButton>
                             <GlassButton size="xl" variant="outline" onClick={() => window.location.href = '/contact'} >
